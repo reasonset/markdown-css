@@ -1,0 +1,107 @@
+p, li, dd {
+    font-family: "Overlock", "GenYoRAO", "GenEi LateMin P v2", "Motoya Apolo Std",  "Ro Hon MinSKok Pr5N", "Mizuki Mincho S", "Source Han Serif JP", "Noto Serif JP", serif;
+    font-weight: 200;
+}
+
+body {
+    font-family: "UniversalWalk", "Raleway v4020", "Sen", "Input Sans", "Fira Sans", "A-OTF Shin Go Pr6N", "MotoyaLCedar", "Source Han Sans JP", "Noto Sans JP", "Arial", "Migu 1C", "VLPGothic", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+code {
+    font-family: 'Cica', 'VLGothic', 'Migu 1M', 'MiguMix 1M', 'Merycam', 'Meryca', 'Ricty Discord', 'Ricty', 'Consolas', 'Monaco', monospace;
+    color: #c36;
+}
+
+body > * {
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #333;
+}
+
+body > header#title-block-header {
+    max-width: 100%;
+    margin: 0px;
+    background-color: #30303f;
+    color: #e8e8e8;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+body > header#title-block-header h1 {
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none 0px;
+}
+
+body > header#title-block-header p.subtitle {
+    border-bottom: #ece8e8 1px solid;
+}
+
+nav#TOC:before {
+    content: 'Table of Contents';
+}
+
+nav#TOC {
+    border: 1px solid #ccc;
+    padding: 1.65em;
+    font-size: smaller;
+    margin: 1.5em auto 1em;
+    max-width: 700px;
+}
+
+h1 {
+    text-align: center;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    margin-top: 1.82em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    border-bottom: 1px solid #333;
+}
+
+h3 {
+    border-left: 0.8em solid #333;
+    border-bottom: 1px solid #333;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+tr.odd {
+    background-color: #eafbff;
+}
+
+table {
+    border-top: #666 solid 1px;
+    border-bottom: #666 solid 1px;
+}
+
+thead th {
+    border-bottom: #666 solid 1px;
+}
+
+a:hover {
+    color: #6433ec;
+}
+
+a:visited {
+    color: #c26992
+}
+
+a {
+    color: #69f;
+}
+
+em {
+    color: #c33;
+}
+
+strong {
+    color: #000;
+    background-color: #ffc8a8;
+}
