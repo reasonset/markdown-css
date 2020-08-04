@@ -10,14 +10,40 @@ body {
 }
 
 code {
-    font-family: 'Cica', 'VLGothic', 'Migu 1M', 'MiguMix 1M', 'Merycam', 'Meryca', 'Ricty Discord', 'Ricty', 'Consolas', 'Monaco', monospace;
+    font-family: 'Cica', 'Source Han Code JP', 'VLGothic', 'Migu 1M', 'MiguMix 1M', 'Merycam', 'Meryca', 'Ricty Discord', 'Ricty', 'Consolas', 'Monaco', monospace;
     color: #c36;
 }
+
+/* Layouting elements */
 
 body > * {
     max-width: 760px;
     margin-left: auto;
     margin-right: auto;
+}
+
+body > code > pre, div.sourceCode {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body > img {
+    max-width: 760px;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Standard attrs */
+
+
+
+
+/***** Designs *****/
+
+body {
     color: #333;
 }
 
@@ -103,5 +129,21 @@ em {
 
 strong {
     color: #000;
-    background-color: #ffc8a8;
+    background-color: #ffa099;
+}
+
+code {
+    color: #f2806c;
+}
+
+pre > code {
+    display: block;
+    border: solid 2px #c86060;
+    padding: 10px;
+}
+
+blockquote {
+    border-left: #a3a3cf 0.8em solid;   
+    padding-left: 1em;
+    font-style: italic;
 }
