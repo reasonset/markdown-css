@@ -40,7 +40,6 @@ img {
 
 
 
-
 /***** Designs *****/
 
 body {
@@ -87,6 +86,7 @@ h1 {
     margin-bottom: 1em;
 }
 
+
 h2 {
     border-bottom: 1px solid #333;
 }
@@ -97,7 +97,7 @@ h3 {
 }
 
 tr.odd {
-    background-color: #eafbff;
+    background-color: #e4eaee;
 }
 
 table {
@@ -145,3 +145,35 @@ blockquote {
     padding-left: 1em;
     font-style: italic;
 }
+
+/***** Source Code *****/
+pre code.sourceCode .al {color: #282828;font-weight: bold;} /*Alert*/
+pre code.sourceCode .an {color: #17448c;} /*Annotation*/
+pre code.sourceCode .at {color: #086a48;} /*Attribute*/
+pre code.sourceCode .dt {color: #ba740b;} /*BaseN*/
+pre code.sourceCode .du {color: #9b129b;} /*Builtin*/
+pre code.sourceCode .cf {color: #15438e;} /*ControlFlow*/
+pre code.sourceCode .ch {color: #82122f;} /*Char*/
+pre code.sourceCode .cn {color: #b01bb0;} /*Constant*/
+pre code.sourceCode .co {color: #293da1;} /*Comment*/
+pre code.sourceCode .cv {color: #ba740b;} /*CommentVar*/
+pre code.sourceCode .do {color: #218B97;} /*Documentation*/
+pre code.sourceCode .dt {color: #2dad86;} /*DataType*/
+pre code.sourceCode .dv {color: #af16af;} /*DecVal*/
+pre code.sourceCode .er {color: #282828; text-decoration: underline;} /*Error*/
+pre code.sourceCode .ex {color: #2dad86;} /*Extension*/
+pre code.sourceCode .fl {color: #af16af;} /*Float*/
+pre code.sourceCode .fu {color: #b51d3e;} /*Function*/
+pre code.sourceCode .im {color: #2dad86;} /*Import*/
+pre code.sourceCode .in {color: #01a8ad;} /*Infomation*/
+pre code.sourceCode .kw {color: #82122f;} /*Keyword*/
+pre code.sourceCode .op {color: #17448c;} /*Operator*/
+pre code.sourceCode .ot {color: #5d5e61;} /*Other*/
+pre code.sourceCode .pp {color: #A85E3D;} /*PreProcessor*/
+pre code.sourceCode .sc {color: #1076ad; background-color: #4E163E} /*SpecialChar*/
+pre code.sourceCode .ss {color: #82122f;} /*SpecialString*/
+pre code.sourceCode .st {color: #295698;} /*String*/
+pre code.sourceCode .va {color: #15438e;} /*Variable*/
+pre code.sourceCode .vs {color: #218B97; font-style: italic;} /*VerbatimString*/
+pre code.sourceCode .wa {color: #5d5e61;} /*Warning*/
+/**********************/
